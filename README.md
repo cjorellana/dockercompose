@@ -21,3 +21,6 @@
 
 `docker run -it --rm -v my_wordpress_wordpress:/vol alpine sh`
 * * *
+# laravel
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-laravel-with-docker-compose-on-ubuntu-20-04-es
