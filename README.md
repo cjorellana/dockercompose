@@ -15,3 +15,9 @@
 `docker-compose stop` Detiene los contenedores en ejecución sin quitarlos. 
 
 `docker compose down` detener contenedores
+
+* * *
+# listar volumenes
+
+`docker run -it --rm -v my_wordpress_wordpress:/vol alpine sh`
+* * *
