@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   db:
-    image: mariadb
+    image: mariadb:10.3
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: notSecureChangeMe
@@ -14,3 +14,7 @@ services:
       - 8080:80
     environment:
       - PMA_ARBITRARY=1
+      - PMA_USER=root
+      - PMA_PASSWORD=notSecureChangeMe      
+      
+      
