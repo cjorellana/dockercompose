@@ -1,4 +1,4 @@
-# dockercompose
+# docker compose Comandos
 
 `docker compose up` con logs
 `docker compose up -d` mode desatachado
