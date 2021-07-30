@@ -1,11 +1,12 @@
 # docker compose Comandos
 
-`docker compose up` con logs
-`docker compose up -d` mode desatachado
-`docker compose up -d` mode desatachado
-`docker compose up -d web 3` Solo 1 contenedor
 
-`docker compose logs` ver logs
+
+`docker compose up -d` mode desatachado \
+`docker compose up -d` mode desatachado \
+`docker compose up -d web 3` Solo 1 contenedor 
+
+`docker compose logs` ver los logs
 `docker compose ps` ver las ejecuciones
 
 `docker-compose run web bash`  entrar a contenedor
