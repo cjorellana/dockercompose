@@ -27,7 +27,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-larav
 
 
 ## Crear un app de Laravel
-`Ejecutando Composer`
+### Ejecutando Composer
 `docker compose run --rm composer create-project --prefer-dist laravel/laravel .`
 
 ## Ejecutando Artisan
@@ -38,3 +38,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-larav
 ## Subir servicios
 
 `docker-compose start db php server`
+
+## entrar a composer
+`docker run --rm -v  /root/code/dockercompose1/laravel/src:/var/www/html -it laravel_composer sh`

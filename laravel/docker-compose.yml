@@ -45,10 +45,11 @@ services:
     entrypoint: ['npm']
     volumes:
       - ./src:/var/www/html
-
   permisos:
-    image: node:14-alpine
-    working_dir: /var/www/html
-    entrypoint: ['chown 777 -R storage/']
+    build:
+      context: ./dockerfiles
+      dockerfile: permisos.dockerfile
     volumes:
       - ./src:/var/www/html
+
+    
