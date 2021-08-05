@@ -45,11 +45,5 @@ services:
     entrypoint: ['npm']
     volumes:
       - ./src:/var/www/html
-  permisos:
-    build:
-      context: ./dockerfiles
-      dockerfile: permisos.dockerfile
-    volumes:
-      - ./src:/var/www/html
 
     

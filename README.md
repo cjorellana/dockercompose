@@ -39,5 +39,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-larav
 
 `docker-compose start db php server`
 
-## entrar a composer
-`docker run --rm -v  /root/code/dockercompose1/laravel/src:/var/www/html -it laravel_composer sh`
+## En caso de error en storage
+`docker run --rm -v $(pwd)/src/:/var/www/html -it alpine chmod 777 -R /var/www/html/storage/`
+`docker run --rm -v $(pwd)/src/:/var/www/html -it alpine sh`
+
+
+
