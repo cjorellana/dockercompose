@@ -32,6 +32,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-set-up-larav
 
 ## Ejecutando Artisan
 `docker compose run --rm artisan migrate`
+
 ## Ejecutando NPM
 `docker compose run --rm npm install bootstrap`
 
